@@ -1,3 +1,6 @@
+import image1 from '../assets/techs/express.svg';
+import image2 from '../assets/techs/express.svg';
+
 interface Project {
     image: string;
     title: string;
@@ -9,7 +12,7 @@ interface Project {
 
 const projects: Project[] = [
     {
-        image: (await import('../assets/techs/express.svg')).default,
+        image: image1,
         title: 'IP address tracker',
         description:
             'Ip address tracker is a website where it can display to the visitor his ip address ' +
@@ -21,7 +24,7 @@ const projects: Project[] = [
         tags: ['React', 'Scss', 'Axios'],
     },
     {
-        image: (await import('../assets/techs/express.svg')).default,
+        image: image2,
         title: 'IP address tracker',
         description:
             'Ip address tracker is a website where it can display to the visitor his ip address ' +

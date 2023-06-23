@@ -1,3 +1,6 @@
+import image1 from '../assets/techs/express.svg';
+import image2 from '../assets/techs/express.svg';
+
 interface Post {
     image: string;
     title: string;
@@ -7,7 +10,7 @@ interface Post {
 
 const posts: Post[] = [
     {
-        image: (await import('../assets/techs/express.svg')).default,
+        image: image1,
         title: 'IP address tracker',
         description:
             'Ip address tracker is a website where it can display to the visitor his ip address ' +
@@ -17,7 +20,7 @@ const posts: Post[] = [
         link: '/',
     },
     {
-        image: (await import('../assets/techs/express.svg')).default,
+        image: image2,
         title: 'IP address tracker',
         description:
             'Ip address tracker is a website where it can display to the visitor his ip address ' +
